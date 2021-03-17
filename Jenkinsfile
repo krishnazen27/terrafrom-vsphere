@@ -1,9 +1,9 @@
 node {
 
-stage (test) {
+stage ('test') {
 sh "ls -la"
 }
-stage (test 2) {
+stage ('test 2') {
 sh "pwd"
 }
 
